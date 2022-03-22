@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="keywords" content="HTML5 Template Archo onepage themeforest" />
+    <meta
+      name="description"
+      content="Archo - Onepage Multi-Purpose HTML5 Template"
+    />
+    <meta name="author" content="" />
+    <!-- Title  -->
+    <title>OptimusProject</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .mySlides {
+        display: none;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {
+          font-size: 11px;
+        }
+      }
+      .buildingShake:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 1s;
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      .column {
+        float: left;
+        width: 14.28%;
+        padding: 5px;
+      }
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ==================== Start Loading ==================== -->
+    <div id="preloader">
+      <div class="loading-text">Loading</div>
+    </div>
+    <!-- ==================== End Loading ==================== -->
+    <!-- ==================== Start progress-scroll-button ==================== -->
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- ==================== End progress-scroll-button ==================== -->
+    <!-- ==================== Start cursor ==================== -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- ==================== End cursor ==================== -->
+    <!-- ==================== Start Navbar ==================== -->
+    <nav class="navbar change navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo" href="#">
+          <img
+            src="img/logo-light.png"
+            alt="logo"
+            style="width: 60% !important; height: auto !important"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-bar"><i class="fas fa-bars"></i></span>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio-mas2.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="social-icon">
+            <a
+              href="https://www.facebook.com/optimusproject.me/"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/optimusproject/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/optimusproject.me/"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <div class="search">
+            <span class="icon pe-7s-search cursor-pointer"></span>
+            <div class="search-form text-center custom-font">
+              <form>
+                <input type="text" name="search" placeholder="Search" />
+              </form>
+              <span class="close pe-7s-close cursor-pointer"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ==================== End Navbar ==================== -->
+    <!-- ==================== Start Slider ==================== -->
+    <header class="slider">
+      <div class="swiper-container parallax-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/m5.jpg"
+              data-overlay-dark="6"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">Range of</h5>
+                      <h1 data-splitting>
+                        <a href="#0">OPTIMUS ENGINEERING</a>
+                      </h1>
+                      <p class="mt-10">
+                        We have experience in small and medium-sized buildings,
+                        bridge design, maritime structures, prestressed
+                        structures, geotehnical design, nonlinear analyses and
+                        seismic design of structures. Particular attention
+                        during the design we give to the feasibility of our
+                        facilities, as well as the quality and quantity of
+                        materials and construction cost price.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/structural1.jpg"
+              data-overlay-dark="5"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">Structural</h5>
+                      <h1 data-splitting><a href="#0"> ENGINEERING </a></h1>
+                      <p class="mt-10">
+                        Our design is mostly based on Eurocodes. For analyses we
+                        use various programs in structural engineering,
+                        depending on the type of facility, to have the best
+                        correspondence with reality.
+                      </p>
+                      <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                    <span>Read More</span>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/s4.png"
+              data-overlay-dark="6"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">EARTHQUAKE</h5>
+                      <h1 data-splitting><a href="#0"> ENGINEERING </a></h1>
+                      <p class="mt-10">
+                        The seismic stability of the new facilities we ensure
+                        through Eurocode 8. Fragility and seismic resistance of
+                        existing facilities we can estimate on the basis of
+                        nonlinear analysis and real hapend earthquakes.
+                      </p>
+                      <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                    <span>Read More</span>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/s5.jpg"
+              data-overlay-dark="5"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">details</h5>
+                      <h1 data-splitting><a href="#0"> OF STRUCTURES </a></h1>
+                      <p class="mt-10">
+                        We make projects to the smallest details, easily
+                        legible, very comprehensive, so that the construction of
+                        buildings with our drawings becomes easy way.
+                      </p>
+                      <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                    <span>Read More</span>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/geohidro1.png"
+              data-overlay-dark="5"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">
+                        GEOTECHNICAL AND HYDROTECHNICAL
+                      </h5>
+                      <h1 data-splitting><a href="#0"> ENGINEERING </a></h1>
+                      <p class="mt-10">
+                        In addition to the stability and bearing capacity, we
+                        pay great attention to the integration of objects into a
+                        spatial enviroment.
+                      </p>
+                      <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                    <span>Read More</span>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/retro1.jpg"
+              data-overlay-dark="5"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">ASSESSMENT AND</h5>
+                      <h1 data-splitting><a href="#0"> RETROFITTING </a></h1>
+                      <p class="mt-10">
+                        We can give new strength to the old facilities through
+                        various methods of rehabilitation.
+                      </p>
+                      <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                    <span>Read More</span>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/materials.jpg"
+              data-overlay-dark="5"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">various</h5>
+                      <h1 data-splitting><a href="#0"> MATERIALS </a></h1>
+                      <p class="mt-10">
+                        The choice of materials and its quality are essential
+                        for the lifetime of the building and your pleasant stay
+                        in it. For objects in which people live, we recommend
+                        the greatest use of natural materials such as stone and
+                        wood in combination with concrete.
+                      </p>
+                      <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                    <span>Read More</span>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="bg-img valign"
+              data-background="img/slid/p1.jpg"
+              data-overlay-dark="5"
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 offset-lg-1">
+                    <div class="caption hmone">
+                      <h5 class="thin custom-font">SCIENCE</h5>
+                      <h1 data-splitting><a href="#0"> AND RESEARCH </a></h1>
+                      <p class="mt-10">
+                        We are open-minded for research and experiments in field
+                        of new materials and techniques in construction. <br />
+                        Feel free to contact us.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- slider setting -->
+        <div class="setone">
+          <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+        </div>
+        <div class="swiper-pagination top custom-font"></div>
+      </div>
+    </header>
+    <!-- ==================== End Slider ==================== -->
+    <!-- ==================== Start about ==================== -->
+    <section class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="exp-img wow fadeInUp" data-wow-delay=".3s">
+              <div class="img bg-img wow imago" data-background="img/exp.jpg">
+                <div class="since custom-font">
+                  <span>Since</span>
+                  <span>1999</span>
+                </div>
+                <div class="years custom-font">
+                  <h2>21</h2>
+                  <h5>Years Experience</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 valign">
+            <div class="exp-content wow fadeInUp" data-wow-delay=".3s">
+              <h6 class="sub-title">About Us</h6>
+              <h2 class="mb-20 playfont">
+                Best Designers <br />
+                Architectures for You.
+              </h2>
+              <p>
+                Architecture bibendum pharetra eleifend. Suspendisse vel
+                volutpat purus, sit amet bibendum nisl. Cras mollis turpis a
+                ipsum ultes, nec condimentum ipsum consequat. Mauris vitae
+                consequat nibh, vitae interdum mi.
+              </p>
+              <div class="numbers mt-50">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="item">
+                      <h3><span class="nbr custom-font">352</span></h3>
+                      <h6>Projects Completed</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="item">
+                      <h3><span class="nbr custom-font">567</span></h3>
+                      <h6>Satisfied Clients</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="item">
+                      <h3><span class="nbr custom-font">17</span></h3>
+                      <h6>Awards Won</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== End about ==================== -->
+    <!-- ==================== Start Services ==================== -->
+    <section class="services section-padding bg-gray">
+      <div class="container">
+        <div class="section-head text-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+              <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
+                Best Features
+              </h6>
+              <h4 class="playfont wow flipInX" data-wow-delay=".5s">
+                Our Services
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row bord-box bg-img wow fadeInUp"
+          data-wow-delay=".3s"
+          data-background="img/bg1.jpg"
+        >
+          <div class="col-lg-6 col-md-6 item-bx">
+            <h2 class="custom-font numb">01</h2>
+            <h6 class="mb-20">Structural engineering</h6>
+            <p>
+              Our design is mostly based on Eurocodes. For analyses we use
+              various programs in structural engineering, depending on the type
+              of facility, to have the best correspondence with reality.
+            </p>
+            <div class="slideshow-container" style="padding-top: 2rem">
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_0.a83f309f.png" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_1.e58e47f4.jpg" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_2.943c8e68.jpg" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_3.a15ae386.jpg" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_4.00a68d75.jpg" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_5.daf964ae.jpg" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_6.74157ae6.jpg" />
+              </div>
+              <div class="mySlides fade">
+                <img src="img/StructuralEng/SE_7.77e9479f.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 item-bx">
+            <h2 class="custom-font numb">02</h2>
+            <h6 class="mb-20">Detailed structures</h6>
+            <p>
+              We make projects to the smallest details, easily legible, very
+              comprehensive, so that the construction of buildings with our
+              drawings becomes easy way.
+            </p>
+            <div class="row" style="padding-top: 1rem">
+              <img class="center" src="img/str12.png" style="width: 86%;"/>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-6 item-bx">
+            <h2 class="custom-font numb">03</h2>
+            <h6 class="mb-20">Earthquake engineering</h6>
+            <p>
+              The seismic stability of the new facilities we ensure through
+              Eurocode 8. Fragility and seismic resistance of existing
+              facilities we can estimate on the basis of nonlinear analysis and
+              real hapend earthquakes.
+            </p>
+            <div class="row" style="padding: 1.5em">
+              <div
+                class="col-md-6"
+                style="background-color: black; text-align: center"
+              >
+                <p
+                  class="naslika"
+                  style="
+                    color: green;
+                    margin: 0;
+                    padding: 0;
+                    max-width: 100%;
+                    text-align: center;
+                  "
+                >
+                  BIM model of sixteen-storey building
+                </p>
+                <img
+                  class="buildingShake"
+                  style="width: 90%; height: auto"
+                  src="img/EarthquakeEng/building.png"
+                />
+              </div>
+              <div
+                class="col-md-6"
+                style="background-color: black; text-align: center"
+              >
+                <p
+                  class="naslika"
+                  style="
+                    color: green;
+                    margin: 0;
+                    padding: 0;
+                    max-width: 100%;
+                    text-align: center;
+                  "
+                >
+                  Nonlinear behavior at RC core during the real hapend
+                  earthquake
+                </p>
+                <video
+                  id="video1"
+                  style="display: block; margin: auto; width: 90%"
+                  object-fit="content"
+                >
+                  <source src="EE_3.webm" type="video/webm" />
+                  Your browser does not support HTML5 video.
+                </video>
+                <p class="slika" style="color: white">deformations d/c ratio</p>
+                <img
+                  id="sh2"
+                  src="img/EE_4.jpg"
+                  style="
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                    padding-bottom: 1rem;
+                  "
+                />
+                <br />
+                <button id="one" class="btn btn-success" onclick="playPause()">
+                  Play/Pause
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-6 item-bx">
+            <h2 class="custom-font numb">04</h2>
+            <h6 class="mb-20">Geotechnical and hydrotechnical engineering</h6>
+            <p>
+              In addition to the stability and bearing capacity, we pay great
+              attention to the integration of objects into a spatial enviroment.
+            </p>
+            <div class="row">
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_1.58157869.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_2.294b4655.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_3.da996b2e.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_4.e49091ff.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_5.db79a472.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_6.d29c97cd.jpg"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="column">
+                <img
+                  src="img/geotechnicalEng/GE_7.3c092ed6.jpg"
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== End Services ==================== -->
+    <!-- ==================== Start works ==================== -->
+    <section class="portfolio section-padding">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="section-head text-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 col-md-8 col-sm-10">
+                <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
+                  Best Works
+                </h6>
+                <h4 class="playfont wow flipInX" data-wow-delay=".5s">
+                  Our Portfolio
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- filter links -->
+          <div
+            class="filtering text-center col-12 wow fadeInUp"
+            data-wow-delay=".3s"
+          >
+            <div
+              class="filter bg-img bg-repeat"
+              data-background="img/line-pattern1.png"
+            >
+              <span data-filter="*" class="active">All</span>
+              <span data-filter=".interior">Interior</span>
+              <span data-filter=".theaters">Theaters</span>
+              <span data-filter=".residential">Residential</span>
+            </div>
+          </div>
+          <!-- gallery -->
+          <div class="gallery twsty full-width">
+            <!-- gallery item -->
+            <div class="items theaters mt-50 wow fadeInUp" data-wow-delay=".3s">
+              <div
+                class="item-img bg-img wow imago"
+                data-background="img/portfolio/mas/01.jpg"
+              >
+                <a href="#0">
+                  <div class="item-img-overlay"></div>
+                </a>
+              </div>
+              <div class="info mt-10">
+                <h5>Fantastic interior</h5>
+                <span>Interior Design</span>
+              </div>
+            </div>
+            <!-- gallery item -->
+            <div class="items interior mt-50 wow fadeInUp" data-wow-delay=".3s">
+              <div
+                class="item-img bg-img wow imago"
+                data-background="img/portfolio/mas/02.jpg"
+              >
+                <a href="#0">
+                  <div class="item-img-overlay valign"></div>
+                </a>
+              </div>
+              <div class="info mt-10">
+                <h5>Choose Your Dream</h5>
+                <span>Architecture</span>
+              </div>
+            </div>
+            <!-- gallery item -->
+            <div
+              class="items residential mt-50 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div
+                class="item-img bg-img wow imago"
+                data-background="img/portfolio/mas/03.jpg"
+              >
+                <a href="#0">
+                  <div class="item-img-overlay valign"></div>
+                </a>
+              </div>
+              <div class="info mt-10">
+                <h5>Luxury Villa</h5>
+                <span>Architecture</span>
+              </div>
+            </div>
+            <!-- gallery item -->
+            <div
+              class="items interior theaters mt-50 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div
+                class="item-img bg-img wow imago"
+                data-background="img/portfolio/mas/04.jpg"
+              >
+                <a href="#0">
+                  <div class="item-img-overlay valign"></div>
+                </a>
+              </div>
+              <div class="info mt-10">
+                <h5>Creative Spaces</h5>
+                <span>Interior Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== End works ==================== -->
+    <!-- ==================== Start Skills Circle ==================== -->
+    <section
+      class="skills-circle section-padding bg-img parallaxie"
+      data-background="img/1.jpg"
+      data-overlay-dark="7"
+    >
+      <div class="container">
+        <div class="section-head text-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+              <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
+                Best Skills
+              </h6>
+              <h4 class="playfont wow flipInX" data-wow-delay=".5s">
+                Best Skills
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp" data-wow-delay=".3s">
+          <div class="col-lg-3 col-md-6">
+            <div class="item text-center">
+              <div class="skill" data-value="0.9">
+                <span class="custom-font">90%</span>
+                <h6>ARCHITECTURE</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="item text-center">
+              <div class="skill" data-value="0.75">
+                <span class="custom-font">75%</span>
+                <h6>INTERIOR DESIGN</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="item text-center">
+              <div class="skill" data-value="0.88">
+                <span class="custom-font">88%</span>
+                <h6>INOVATION</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="item text-center">
+              <div class="skill" data-value="0.83">
+                <span class="custom-font">83%</span>
+                <h6>CONTEMPORARY IDEAS</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== End Skills Circle ==================== -->
+    <!-- ==================== Start Testimonials ==================== -->
+    <!-- <section class="testimonials grid section-padding">
+         <div class="container">
+             <div class="section-head text-center">
+                 <div class="row justify-content-center">
+                     <div class="col-lg-6 col-md-8 col-sm-10">
+                         <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Testimonials</h6>
+                         <h4 class="playfont wow flipInX" data-wow-delay=".5s">What People Says?</h4>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-lg-12">
+                     <div class="testim">
+                         <div class="item wow fadeInUp" data-wow-delay=".3s">
+                             <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                             <div class="cont">
+                                 <p class="playfont">"I just love their design for all stunning details. You must know
+                                     what can you do for a project before taking it, but with Archo, the sky is the
+                                     limit."
+                                 </p>
+                             </div>
+                             <div class="info">
+                                 <div class="author">
+                                     <img src="img/clients/1.jpg" alt="">
+                                 </div>
+                                 <h6>Mitchl Jhon <span>Envato Customer</span> </h6>
+                             </div>
+                         </div>
+                         <div class="item wow fadeInUp" data-wow-delay=".3s">
+                             <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                             <div class="cont">
+                                 <p class="playfont">"I just love their design for all stunning details. You must know
+                                     what can you do for a project before taking it, but with Archo, the sky is the
+                                     limit."
+                                 </p>
+                             </div>
+                             <div class="info">
+                                 <div class="author">
+                                     <img src="img/clients/2.jpg" alt="">
+                                 </div>
+                                 <h6>Jane Smith <span>Envato Customer</span> </h6>
+                             </div>
+                         </div>
+                         <div class="item wow fadeInUp" data-wow-delay=".3s">
+                             <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                             <div class="cont">
+                                 <p class="playfont">"I just love their design for all stunning details. You must know
+                                     what can you do for a project before taking it, but with Archo, the sky is the
+                                     limit."
+                                 </p>
+                             </div>
+                             <div class="info">
+                                 <div class="author">
+                                     <img src="img/clients/3.jpg" alt="">
+                                 </div>
+                                 <h6>Alison Clutcher <span>Envato Customer</span> </h6>
+                             </div>
+                         </div>
+                         <div class="item wow fadeInUp" data-wow-delay=".3s">
+                             <span class="quote-icon"><img src="img/clients/quote.svg" alt=""></span>
+                             <div class="cont">
+                                 <p class="playfont">"I just love their design for all stunning details. You must know
+                                     what can you do for a project before taking it, but with Archo, the sky is the
+                                     limit."
+                                 </p>
+                             </div>
+                             <div class="info">
+                                 <div class="author">
+                                     <img src="img/clients/4.jpg" alt="">
+                                 </div>
+                                 <h6>Peter Jefferson <span>Envato Customer</span> </h6>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="navs mt-30">
+                         <span class="prev">
+                             <i class="fas fa-long-arrow-alt-left"></i>
+                         </span>
+                         <span class="next">
+                             <i class="fas fa-long-arrow-alt-right"></i>
+                         </span>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         </section> -->
+    <!-- ==================== End Testimonials ==================== -->
+    <!-- ==================== Start Team ==================== -->
+    <section class="team section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="tit">
+              <h6 class="custom-font mb-10 wow fadeInDown" data-wow-delay=".3s">
+                Some thoughts from Us
+              </h6>
+              <h3 class="wow flipInX" data-wow-delay=".5s">Our Employees</h3>
+              <p class="wow fadeInUp" data-wow-delay=".3s">
+                We feel proud for our expert team members beatae ipsum dolor sit
+                amet, consectetur adipisicing elit mauris vitae consequat nibh,
+                vitae interdum mi.
+              </p>
+              <div class="navs mt-30 wow fadeInUp" data-wow-delay=".3s">
+                <span class="prev">
+                  <i class="fas fa-long-arrow-alt-left"></i>
+                </span>
+                <span class="next">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="team-container">
+              <div class="item wow fadeInUp" data-wow-delay=".3s">
+                <div class="img wow imago">
+                  <img src="img/team/jovanfurtula.png" alt="" />
+                  <div class="social">
+                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+                <div class="info">
+                  <h5>Jovan Furtula</h5>
+                  <span>Executive officer, MSc of civil engineering</span>
+                </div>
+              </div>
+              <div class="item wow fadeInUp" data-wow-delay=".3s">
+                <div class="img wow imago">
+                  <img src="img/team/anaristivojevic.jpg" alt="" />
+                  <div class="social">
+                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+                <div class="info">
+                  <h5>Ana Ristivojević</h5>
+                  <span>Creative director, MA of Art Theory</span>
+                </div>
+              </div>
+              <div class="item wow fadeInUp" data-wow-delay=".3s">
+                <div class="img wow imago">
+                  <img src="img/team/tijanalekovic.jpg" alt="" />
+                  <div class="social">
+                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+                <div class="info">
+                  <h5>Tijana Leković</h5>
+                  <span>Designer, Spec.sci of civil engineering</span>
+                </div>
+              </div>
+              <div class="item wow fadeInUp" data-wow-delay=".3s">
+                <div class="img wow imago">
+                  <img src="img/team/darkoognjenovic.jpg" alt="" />
+                  <div class="social">
+                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+                <div class="info">
+                  <h5>Darko Ognjenović</h5>
+                  <span>Designer, Spec.sci of civil engineering</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="dots-half bg-img bg-repeat"
+        data-background="img/dots.png"
+      ></div>
+    </section>
+    <!-- ==================== End Team ==================== -->
+    <!-- ==================== Start Blog ==================== -->
+    <!-- <section class="blog-grid section-padding mb-50">
+         <div class="container">
+             <div class="section-head text-center">
+                 <div class="row justify-content-center">
+                     <div class="col-lg-6 col-md-8 col-sm-10">
+                         <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Latest News</h6>
+                         <h4 class="playfont wow flipInX" data-wow-delay=".5s">Our Blogs</h4>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+         
+                 <div class="col-lg-4">
+                     <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s">
+                         <div class="post-img">
+                             <div class="img">
+                                 <img src="img/blog/1.jpg" alt="">
+                             </div>
+                         </div>
+                         <div class="cont">
+                             <div class="info">
+                                 <a href="#0">Alex Smith</a>
+                                 <a href="#0">Aug 06 2019</a>
+                             </div>
+         
+                             <h5 class="playfont"><a href="#0">In Good Taste: Mark Finlay Architects and Interiors</a>
+                             </h5>
+         
+                             <a href="blog-details.html" class="more">
+                                 <span class="custom-font">Read More</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+         
+                 <div class="col-lg-4">
+                     <div class="item wow fadeInUp md-mb50" data-wow-delay=".1s">
+                         <div class="post-img">
+                             <div class="img">
+                                 <img src="img/blog/2.jpg" alt="">
+                             </div>
+                         </div>
+                         <div class="cont">
+                             <div class="info">
+                                 <a href="#0">Alex Smith</a>
+                                 <a href="#0">Aug 06 2019</a>
+                             </div>
+         
+                             <h5 class="playfont"><a href="#0">Five Things You Should Know About Modern Furniture.</a>
+                             </h5>
+         
+                             <a href="blog-details.html" class="more">
+                                 <span class="custom-font">Read More</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+         
+                 <div class="col-lg-4">
+                     <div class="item wow fadeInUp" data-wow-delay=".5s">
+                         <div class="post-img">
+                             <div class="img">
+                                 <img src="img/blog/3.jpg" alt="">
+                             </div>
+                         </div>
+                         <div class="cont">
+                             <div class="info">
+                                 <a href="#0">Alex Smith</a>
+                                 <a href="#0">Aug 06 2019</a>
+                             </div>
+         
+                             <h5 class="playfont"><a href="#0">What it's like to be an interior designer?</a></h5>
+         
+                             <a href="blog-details.html" class="more">
+                                 <span class="custom-font">Read More</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         </section> -->
+    <!-- ==================== End Blog ==================== -->
+    <!-- ==================== Start contact ==================== -->
+    <!-- <section class="contact cont-map">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-5 col-md-6 contact-form wow fadeInDown" data-wow-delay=".3s">
+                     <form id="contact-form" method="post" action="contact.php">
+                         <div class="section-head">
+                             <h6 class="custom-font">Contact Us</h6>
+                             <h4 class="playfont">Get In Touch</h4>
+                         </div>
+         
+                         <div class="messages"></div>
+         
+                         <div class="controls">
+         
+                             <div class="form-group">
+                                 <input id="form_name" type="text" name="name" placeholder="Name" required="required">
+                             </div>
+         
+                             <div class="form-group">
+                                 <input id="form_email" type="email" name="email" placeholder="Email"
+                                     required="required">
+                             </div>
+         
+                             <div class="form-group">
+                                 <textarea id="form_message" name="message" placeholder="Message" rows="4"
+                                     required="required"></textarea>
+                             </div>
+         
+                             <button type="submit" class="btn-curve btn-color"><span>Send Message</span></button>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </div>
+         <div class="contact-map">
+             <div class="map" id="ieatmaps"></div>
+         </div>
+         <div class="bg-img" data-background="img/2.jpg"></div>
+         </section> -->
+    <!-- ==================== End contact ==================== -->
+    <!-- ==================== Start Footer ==================== -->
+    <footer class="main-footer dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="item abot">
+              <div class="logo-footer mb-20">
+                <a href="#0" class="logo">
+                  <img src="img/logo-light.png" alt="" />
+                </a>
+              </div>
+              <p>
+                Our team takes over everything, from an idea and concept
+                development to realization.
+              </p>
+              <div class="social-icon">
+                <a
+                  href="https://www.facebook.com/optimusproject.me/"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/optimusproject/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/optimusproject.me/"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1">
+            <div class="item fotcont">
+              <div class="fothead">
+                <h6>Call</h6>
+              </div>
+              <p>+382 69 245 322</p>
+              <p>+382 67 013 789</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="item fotcont">
+              <div class="fothead">
+                <h6>Write</h6>
+              </div>
+              <p>optimusproject.me@gmail.com</p>
+              <p>optimusproject.rs@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="text-left">
+                <p>Copyright © OptimusProject 2021</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="text-right">
+                <p>All right reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ==================== End Footer ==================== -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+    <!-- Map -->
+    <script src="js/map.js"></script>
+    <!-- google map api -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUU5FZiF5WLFFfgIC1n64Zr0zfpQZjBBg&callback=initMap"
+    ></script>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000);
+      }
+
+      window.myVideo = document.getElementById("video1");
+      window.playPause = () => {
+        if (window.myVideo.paused) window.myVideo.play();
+        else window.myVideo.pause();
+      };
+    </script>
+  </body>
+</html>
